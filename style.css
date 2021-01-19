@@ -1,0 +1,181 @@
+*{
+	margin:0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.footer{
+	width: 100%;
+	background-color: #000;
+	padding: 60px 0px;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1200px;
+	margin:auto;
+
+}
+.item h6{
+	color: white;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
+
+}
+.item ul li{
+	list-style: none;
+}
+.item ul li a{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	color: #cecece;
+	font-weight: 600;
+}
+.item ul li a:hover{
+	color: #fff;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #cecece;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+.bottom ul li{
+	list-style: none;
+	display: inline-block;
+	border-right: 1px solid #cecece;
+	padding-right: 8px;
+	margin-right: 4px;
+}
+.bottom ul li a{
+	color: #cecece;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+
+}
+.bottom ul li a:hover{
+	color: white;
+}
+.last{
+	border-right: none !important;
+}
+.bottom ul{
+	margin-bottom: 20px;
+
+}
+.bottom p{
+	color: #cecece;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+
+}
+.bottom p a{
+	color: red;
+	margin-left: 10px;
+}
+.contact-form{
+	width: 100%;
+	background-color: #EEE;
+	padding: 60px 0;
+}
+.main-body{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.main-body h1{
+	color: black;
+	font-size: 46px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
+
+}
+.main-body p{
+	color: black;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+
+
+}
+.form-group{
+
+}
+.form-group input{
+	width: 29%;
+	padding: 15px 12px;
+	margin: 8px 4px;
+
+}
+textarea{
+	padding: 29px;
+	margin: 8px 0px;
+}
+
+.form-button input{
+	padding: 10px 30px;
+	margin-left:-625px;
+
+}
+.icon ul li{
+	list-style: none;
+	margin: 5px 0px;
+}
+.icon ul li a i{
+	height: 40px;
+	width: 40px;
+	color: white;
+	background-color: red;
+	text-align: center;
+	line-height: 40px;
+	padding: 0px 20px;
+}
+.fa-facebook{
+	position: fixed;
+	top: 25%;
+	left: -10px;
+}
+.fa-facebook:hover{
+	left: 0px;
+	transition: 0.5s;
+}
+.fa-twitter{
+	position: fixed;
+	top: 32%;
+	left: -10px;
+}
+.fa-twitter:hover{
+	left: 0px;
+	transition: 0.5s;
+}
+.fa-instagram{
+	position: fixed;
+	top: 39%;
+	left: -10px;
+}
+.fa-instagram:hover{
+	left: 0px;
+	transition: 0.5s;
+}
+
+.fa-github{
+	position: fixed;
+	top: 47%;
+	left: -10px;
+}
+.fa-github:hover{
+	left: 0px;
+	transition: 0.5s;
+}
+.fa-behance{
+	position: fixed;
+	top: 54%;
+	left: -10px;
+}
+.fa-behance:hover{
+	left: 0px;
+	transition: 0.5s;
+}
